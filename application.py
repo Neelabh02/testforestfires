@@ -11,7 +11,7 @@ app=application
 #import ridge regressor and standaerd scaler pickle
 ridge_model=pickle.load(open('models/ridge.pkl','rb'))
 standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
-
+ 
 
 @app.route("/")
 def index():
